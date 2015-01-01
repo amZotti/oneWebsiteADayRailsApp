@@ -16,3 +16,7 @@ a img {
 h1 {
   border-bottom: 3px solid black;
 }
+
+li {
+  padding-bottom: 10px;
+}
