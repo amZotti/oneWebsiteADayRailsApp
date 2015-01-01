@@ -1,7 +1,18 @@
 body {
   background-color: rgb(224, 245, 193);
+  font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+a img {
+  position: relative;
+  bottom: 65px;
+  left: 700px;
+  width: 40px;
+}
+h1 {
+  border-bottom: 3px solid black;
 }
