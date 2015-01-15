@@ -9,7 +9,7 @@
       event.preventDefault();
       query = $('input').val();
       script = document.createElement("script");
-      script.src = "http://api.worldweatheronline.com/free/v1/weather.ashx?q=" + query + "&format=json&callback=processWeather&key=j8xvysb7t9jp2dvw7pwcbgs3";
+      script.src = "https://api.worldweatheronline.com/free/v1/weather.ashx?q=" + query + "&format=json&callback=processWeather&key=j8xvysb7t9jp2dvw7pwcbgs3";
       return document.body.appendChild(script);
     });
   });
