@@ -3,7 +3,7 @@
   var endpointURL, movieTemplate, request;
 
   endpointURL = function(requestType) {
-    return "https://api.rottentomatoes.com/api/public/v1.0/lists/movies/" + requestType + ".json?apikey=pgdtp25vavmj5fdbu2ynamxc";
+    return "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/" + requestType + ".json?apikey=pgdtp25vavmj5fdbu2ynamxc";
   };
 
   this.displayMovies = function(response) {
